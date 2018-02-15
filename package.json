@@ -4,7 +4,10 @@
   "private": true,
   "dependencies": {
     "react": "^16.2.0",
-    "react-dom": "^16.2.0"
+    "react-dom": "^16.2.0",
+    "react-router-dom": "^4.2.2",
+    "semantic-ui-css": "^2.2.14",
+    "semantic-ui-react": "^0.78.2"
   },
   "devDependencies": {
     "babel-eslint": "^8.2.1",
@@ -14,6 +17,7 @@
     "eslint-plugin-import": "^2.8.0",
     "eslint-plugin-jsx-a11y": "^6.0.3",
     "eslint-plugin-react": "^7.6.1",
+    "flow-bin": "^0.65.0",
     "react-scripts": "1.1.1"
   },
   "scripts": {
