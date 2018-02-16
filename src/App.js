@@ -6,9 +6,9 @@ import LoginPage from './pages/LoginPage';
 class App extends Component {
   render() {
     return (
-      <Container>
+      <div>
         <LoginPage />
-      </Container>
+      </div>
     );
   }
 }
