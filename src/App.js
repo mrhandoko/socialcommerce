@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Container } from 'semantic-ui-react';
 
-import LoginPage from './pages/LoginPage';
+// import LoginPage from './pages/LoginPage';
 import RegisterPage from './pages/RegisterPage';
 // import ForgotPasswordPage from './pages/ForgotPasswordPage';
 
