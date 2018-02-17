@@ -4,6 +4,7 @@ import React, { Component } from 'react';
 // import RegisterPage from './pages/RegisterPage';
 // import ForgotPasswordPage from './pages/ForgotPasswordPage';
 import Header from './base-ui/Header';
+import SecondaryHeader from './base-ui/SecondaryHeader';
 
 class App extends Component {
   render() {
@@ -12,6 +13,7 @@ class App extends Component {
         {/* <LoginPage /> */}
         {/* <ForgotPasswordPage /> */}
         <Header />
+        <SecondaryHeader />
         {/* <RegisterPage /> */}
       </div>
     );
