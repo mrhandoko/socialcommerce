@@ -6,7 +6,7 @@ import Logo from '../images/logo.png';
 class LoginPage extends Component {
   render() {
     return (
-      <Container>
+      <Container style={{ paddingTop: '15%' }}>
         <Card centered verticalAlign="middle" style={{ width: 500 }}>
           <Card.Header style={{ background: 'linear-gradient(76deg, #aa1f5a 0%, #c61e43 30%, #ec1c24 100%)' }}>
             <Image src={Logo} centered style={{ width: 180 }} />
