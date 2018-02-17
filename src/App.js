@@ -2,13 +2,17 @@ import React, { Component } from 'react';
 import { Container } from 'semantic-ui-react';
 
 import LoginPage from './pages/LoginPage';
+import RegisterPage from './pages/RegisterPage';
+// import ForgotPasswordPage from './pages/ForgotPasswordPage';
 
 class App extends Component {
   render() {
     return (
-      <div>
-        <LoginPage />
-      </div>
+      <Container>
+        {/* <LoginPage /> */}
+        {/* <ForgotPasswordPage /> */}
+        <RegisterPage />
+      </Container>
     );
   }
 }

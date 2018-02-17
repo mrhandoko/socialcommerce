@@ -3,7 +3,7 @@ import { Container, Card, Image, Button, Form } from 'semantic-ui-react';
 
 import Logo from '../images/logo.png';
 
-class LoginPage extends Component {
+class ForgotPasswordPage extends Component {
   render() {
     return (
       <Container>
@@ -14,21 +14,11 @@ class LoginPage extends Component {
           <Card.Content>
             <Form>
               <Form.Field>
-                <label>Username</label>
-                <input placeholder="Username" />
+                <label>Forgot Password</label>
+                <input placeholder="Email" />
               </Form.Field>
-              <Form.Field>
-                <label>Password</label>
-                <input placeholder="Password" />
-              </Form.Field>
-              <Button type="submit" fluid color="red" >Sign in</Button>
-              <Form.Field>
-                <p style={{ color: '#cacaca' }}>Forgot Your Password?</p>
-              </Form.Field>
+              <Button type="submit" fluid color="red" >Send Password</Button>
             </Form>
-          </Card.Content>
-          <Card.Content extra textAlign="center">
-            <p style={{ color: 'red' }}>Don't have an Account? Register Now!</p>
           </Card.Content>
         </Card>
       </Container>
@@ -36,4 +26,4 @@ class LoginPage extends Component {
   }
 }
 
-export default LoginPage;
+export default ForgotPasswordPage;
