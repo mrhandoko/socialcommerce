@@ -21,9 +21,6 @@ export default class Header extends React.Component {
               <Image src={avatar} size="tiny" circular style={{ width: 40, height: 40 }} />
             </Menu.Item>
             <Menu.Item name="Jane Doe" onClick={this.handleItemClick} />
-            {/* <Menu.Menu style={{ backgroundColor: 'yellow' }}>
-              <Image src={Logo2} style={{ width: 100 }} centered />
-            </Menu.Menu> */}
             <Container textAlign="center">
               <Image src={Logo2} style={{ width: 100, padding: 10 }} centered />
             </Container>

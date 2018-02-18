@@ -3,6 +3,7 @@ import { Menu, Container, Search, Button, Icon } from 'semantic-ui-react';
 
 export default class SecondaryHeader extends React.Component {
   render() {
+    const { labelPage } = this.props;
     return (
       <Container fluid>
         <Menu
@@ -19,6 +20,10 @@ export default class SecondaryHeader extends React.Component {
                 paddingTop: 8, paddingBottom: 8, paddingLeft: 5, paddingRight: 5,
               }}
             />
+            <Menu.Item />
+            <p style={{ color: 'white', padding: 18, fontSize: 15 }}>
+              {labelPage}
+            </p>
           </Menu.Menu>
         </Menu>
       </Container>
