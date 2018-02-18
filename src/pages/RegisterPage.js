@@ -3,6 +3,7 @@ import { Container, Card, Image, Button, Form } from 'semantic-ui-react';
 import DatePicker from 'material-ui/DatePicker';
 import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
 import getMuiTheme from 'material-ui/styles/getMuiTheme';
+import { Link } from 'react-router-dom';
 
 import Logo from '../images/logo.png';
 
@@ -92,7 +93,7 @@ class RegisterPage extends Component {
             </Form>
           </Card.Content>
           <Card.Content extra textAlign="center">
-            <p style={{ color: 'red' }}>Already have an Account? Login here!</p>
+            <p>Already have an Account? <Link to={`/`} style={{ color: 'red' }}>Login here!</Link></p>
           </Card.Content>
         </Card>
       </Container>

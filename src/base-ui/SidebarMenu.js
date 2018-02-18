@@ -18,7 +18,8 @@ export default class SidebarMenu extends React.Component {
             style={{ backgroundColor: '#5e5e5e' }}
           >
             <Menu.Item name="dashboard">
-              <Icon name="grid layout" /> Dashboard
+              <Icon name="grid layout" />
+              Dashboard
             </Menu.Item>
             <Menu.Item name="order">
               <Icon name="conversation" />
@@ -35,6 +36,18 @@ export default class SidebarMenu extends React.Component {
             <Menu.Item name="product">
               <Icon name="heart" />
               Product
+            </Menu.Item>
+            <Menu.Item name="schedule">
+              <Icon name="history" />
+              Schedule
+            </Menu.Item>
+            <Menu.Item name="promocode">
+              <Icon name="tag" />
+              Promo Code
+            </Menu.Item>
+            <Menu.Item name="traction">
+              <Icon name="share" />
+              Traction
             </Menu.Item>
           </Sidebar>
           <Sidebar.Pusher>
